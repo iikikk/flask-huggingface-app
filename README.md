@@ -1,7 +1,8 @@
 # Flask Hugging Face Text Generation App
 
 A Flask web application that integrates Hugging Face's text generation API to generate text based on user input prompts. The application is containerized using Docker, pushed to Amazon ECR (Elastic Container Registry), and deployed on AWS App Runner, providing a publicly accessible, auto-scaling web service.
-
+## Demo Video
+https://youtu.be/4OP7gOE30kQ
 
 ## Features
 
@@ -179,7 +180,8 @@ AWS App Runner is designed to deploy containerized web applications quickly and 
 - **Embedded LLM**: The app integrates an embedded language model using Hugging Face's API.
 - **User Interface**: Enhanced with Bootstrap for a better user experience.
 - **Error Handling**: Implements robust error handling for API requests.
-
+### Quality of Conclusion and Recommendation
+This project effectively demonstrates the integration of a Flask application with an embedded LLM, containerized using Docker and deployed on AWS to achieve automatic scaling. The chosen approach ensures both reliability and cost-efficiency. For future enhancements, consider experimenting with more advanced LLM models for improved output quality, refining the user interface for better user experience, and integrating additional AWS services like Secrets Manager to further secure API keys and sensitive information.
 ## Screenshot
 ### AWS Web App
 ![p1.png](p1.png)
